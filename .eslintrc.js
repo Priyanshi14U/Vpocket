@@ -1,6 +1,14 @@
 module.exports = {
-  root: true,
-  extends: '@react-native-community',
+  module.exports = {
+    root: true,
+    extends: '@react-native-community',
+    "rules": {
+      "prettier/prettier": ["error",{
+        "endOfLine": "auto"}
+      ]
+  
+    }
+  },
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   overrides: [
