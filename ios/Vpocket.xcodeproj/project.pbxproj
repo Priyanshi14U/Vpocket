@@ -14,6 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Vpocket-VpocketTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Vpocket-VpocketTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		3E5D255D4D8349E2911D6B2D /* LobsterTwo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9AC6F7DD71946DA93EC6BF5 /* LobsterTwo-Bold.ttf */; };
+		08C88C84D18C4A238FEE4E67 /* LobsterTwo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 906DE08AF071466DB507BFC2 /* LobsterTwo-BoldItalic.ttf */; };
+		BAE7014814984DD19CBC744C /* LobsterTwo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DF241EB60B349DB9BCB2641 /* LobsterTwo-Italic.ttf */; };
+		F42F1AE1410642C8A72A0696 /* LobsterTwo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07DBD88E70B24F0B8865C82E /* LobsterTwo-Regular.ttf */; };
+		3E0C58FE10784B81A42E3F8A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = BC47DA2FDFE5474BB39D75FA /* OFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Vpocket/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Vpocket-VpocketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vpocket-VpocketTests.release.xcconfig"; path = "Target Support Files/Pods-Vpocket-VpocketTests/Pods-Vpocket-VpocketTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F9AC6F7DD71946DA93EC6BF5 /* LobsterTwo-Bold.ttf */ = {isa = PBXFileReference; name = "LobsterTwo-Bold.ttf"; path = "../src/assets/fonts/lobster/LobsterTwo-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		906DE08AF071466DB507BFC2 /* LobsterTwo-BoldItalic.ttf */ = {isa = PBXFileReference; name = "LobsterTwo-BoldItalic.ttf"; path = "../src/assets/fonts/lobster/LobsterTwo-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9DF241EB60B349DB9BCB2641 /* LobsterTwo-Italic.ttf */ = {isa = PBXFileReference; name = "LobsterTwo-Italic.ttf"; path = "../src/assets/fonts/lobster/LobsterTwo-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07DBD88E70B24F0B8865C82E /* LobsterTwo-Regular.ttf */ = {isa = PBXFileReference; name = "LobsterTwo-Regular.ttf"; path = "../src/assets/fonts/lobster/LobsterTwo-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC47DA2FDFE5474BB39D75FA /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../src/assets/fonts/lobster/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7B290FDC54794AD39CAE84A5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +158,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		7B290FDC54794AD39CAE84A5 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				F9AC6F7DD71946DA93EC6BF5 /* LobsterTwo-Bold.ttf */,
+				906DE08AF071466DB507BFC2 /* LobsterTwo-BoldItalic.ttf */,
+				9DF241EB60B349DB9BCB2641 /* LobsterTwo-Italic.ttf */,
+				07DBD88E70B24F0B8865C82E /* LobsterTwo-Regular.ttf */,
+				BC47DA2FDFE5474BB39D75FA /* OFL.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +268,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3E5D255D4D8349E2911D6B2D /* LobsterTwo-Bold.ttf in Resources */,
+				08C88C84D18C4A238FEE4E67 /* LobsterTwo-BoldItalic.ttf in Resources */,
+				BAE7014814984DD19CBC744C /* LobsterTwo-Italic.ttf in Resources */,
+				F42F1AE1410642C8A72A0696 /* LobsterTwo-Regular.ttf in Resources */,
+				3E0C58FE10784B81A42E3F8A /* OFL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

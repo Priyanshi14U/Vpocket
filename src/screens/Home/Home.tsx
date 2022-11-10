@@ -1,5 +1,6 @@
 import React from 'react';
-import {Box, Text, Button} from 'native-base';
+import {StyleSheet} from 'react-native';
+import {Box,Text,  Button} from 'native-base';
 
 const Home = ({navigation}) => {
 
@@ -12,11 +13,18 @@ const Home = ({navigation}) => {
   return (
     <>
       <Box>
-        <Text>Hello Home</Text>
+        <Text fontFamily="lobster" fontSize="100">Hello Home</Text>
         <Button onPress={() => clicked()}>Click Me</Button>
       </Box>
     </>
   );
 };
+
+const styles = StyleSheet.create({
+  textStyle:{
+    fontSize: 30,
+    fontFamily: 'LobsterTwo-Regular'
+  }
+})
 
 export default Home;
