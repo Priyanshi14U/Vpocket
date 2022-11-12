@@ -57,7 +57,7 @@ const App = () => {
         <NavigationContainer>
           <Stack.Navigator
             screenOptions={{headerShown: false}}
-            initialRouteName="Home">
+            initialRouteName="SignIn">
             <Stack.Screen name="Home" component={Home} />
             <Stack.Screen name="SignIn" component={SignIn} />
             <Stack.Screen name="SignUp" component={SignUp} />
